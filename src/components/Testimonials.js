@@ -1,4 +1,6 @@
 import React from "react";
+import TestimonialsCards from "./TestimonialsCards";
+import stars from "../assets/pics/star.png";
 
 const Testimonials = () => {
     return (
@@ -7,38 +9,90 @@ const Testimonials = () => {
                 <p className="testimonials__header">Testimonials</p>
             </section>
             <section className="testimonials__cardsSection">
-                <div className="testimonials__card">
-                    <p className="testimonials__subheader">Rating</p>
-                    <div className="testimonials__wrapper">
-                        <img src="" alt="user" />
-                        <p className="testimonials__name">Name</p>
-                    </div>
-                    <p>Review Text</p>
-                </div>
-                <div className="testimonials__card">
-                    <p className="testimonials__subheader">Rating</p>
-                    <div className="testimonials__wrapper">
-                        <img src="" alt="user" />
-                        <p className="testimonials__name">Name</p>
-                    </div>
-                    <p>Review Text</p>
-                </div>
-                <div className="testimonials__card">
-                    <p className="testimonials__subheader">Rating</p>
-                    <div className="testimonials__wrapper">
-                        <img className="testimonials__img" src="" alt="user" />
-                        <p className="testimonials__name">Name</p>
-                    </div>
-                    <p>Review Text</p>
-                </div>
-                <div className="testimonials__card">
-                    <p className="testimonials__subheader">Rating</p>
-                    <div className="testimonials__wrapper">
-                        <img src="" alt="user" />
-                        <p className="testimonials__name">Name</p>
-                    </div>
-                    <p>Review Text</p>
-                </div>
+                <TestimonialsCards
+                    img={stars}
+                    name={"Micheal Caldwell"}
+                    review={
+                        "The food here really refreshed me after a late night shift at the local supply depot."
+                    }
+                />
+                <TestimonialsCards
+                    img={stars}
+                    name={"Micheal Caldwell"}
+                    review={
+                        "The food here really refreshed me after a late night shift at the local supply depot."
+                    }
+                />
+                <TestimonialsCards
+                    img={stars}
+                    name={"Micheal Caldwell"}
+                    review={
+                        "The food here really refreshed me after a late night shift at the local supply depot."
+                    }
+                />
+                <TestimonialsCards
+                    img={stars}
+                    name={"Micheal Caldwell"}
+                    review={
+                        "The food here really refreshed me after a late night shift at the local supply depot."
+                    }
+                />
+                <TestimonialsCards
+                    img={stars}
+                    name={"Micheal Caldwell"}
+                    review={
+                        "The food here really refreshed me after a late night shift at the local supply depot."
+                    }
+                />
+                <TestimonialsCards
+                    img={stars}
+                    name={"Micheal Caldwell"}
+                    review={
+                        "The food here really refreshed me after a late night shift at the local supply depot."
+                    }
+                />
+                <TestimonialsCards
+                    img={stars}
+                    name={"Micheal Caldwell"}
+                    review={
+                        "The food here really refreshed me after a late night shift at the local supply depot."
+                    }
+                />
+                <TestimonialsCards
+                    img={stars}
+                    name={"Micheal Caldwell"}
+                    review={
+                        "The food here really refreshed me after a late night shift at the local supply depot."
+                    }
+                />
+                <TestimonialsCards
+                    img={stars}
+                    name={"Micheal Caldwell"}
+                    review={
+                        "The food here really refreshed me after a late night shift at the local supply depot."
+                    }
+                />
+                <TestimonialsCards
+                    img={stars}
+                    name={"Micheal Caldwell"}
+                    review={
+                        "The food here really refreshed me after a late night shift at the local supply depot."
+                    }
+                />
+                <TestimonialsCards
+                    img={stars}
+                    name={"Micheal Caldwell"}
+                    review={
+                        "The food here really refreshed me after a late night shift at the local supply depot."
+                    }
+                />
+                <TestimonialsCards
+                    img={stars}
+                    name={"Micheal Caldwell"}
+                    review={
+                        "The food here really refreshed me after a late night shift at the local supply depot."
+                    }
+                />
             </section>
         </div>
     );

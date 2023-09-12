@@ -169,12 +169,14 @@
 .testimonials__cardsSection {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    width: 57%;
+    grid-template-rows: 3;
+    width: 51%;
+    gap: 1rem;
 }
 
 .testimonials__card {
     border: 1px solid #000000;
-    padding: 1.5rem;
+    padding: 1rem;
     background-color: #edefee;
 }
 
@@ -192,7 +194,10 @@
 }
 
 .about {
-    margin-top: 12rem;
+    margin-top: 3rem;
+    background-color: #f4ce14;
+    padding-top: 7%;
+    padding-bottom: 3%;
 }
 
 .about__wrapper {
@@ -225,14 +230,72 @@
     height: 18rem;
     border-radius: 16px;
     position: absolute;
-    top: 165%;
-    right: 20%;
+    top: 233%;
+    right: 22%;
+}
+
+.bookingPage,
+.confirmation {
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+.bookingPage__img {
+    width: 100vw;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.bookingPage__titleDiv,
+.confirmation__titleDiv {
+    background-color: #495e57;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    border-radius: 0.5rem;
+}
+
+.confirmation__img {
+    width: 100vw;
+    height: 29.1rem;
+    object-fit: cover;
+}
+
+.form {
+    padding: 2rem 0 0.5rem 0;
+    text-align: center;
+}
+
+.form > div {
+    margin-bottom: 1.5rem;
+}
+
+.form__btn {
+    background-color: #f4ce14;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 1rem;
+    font-family: "Karla";
+    font-size: 2rem;
+    text-decoration: none;
+    color: #000000;
+}
+
+.form__btn:hover {
+    background-color: #495e57;
+    color: #eeeeee;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #edefee;
+    transition: 0.2s;
 }
 
 .footer {
     background-color: #495e57;
     color: white;
-    margin-top: 2rem;
     padding: 2rem 0;
 }
 
